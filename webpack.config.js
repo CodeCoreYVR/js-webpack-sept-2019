@@ -39,9 +39,6 @@ module.exports = {
     // the names of the bundled files.
     filename: "[name].bundle.js"
   },
-  devServer: {
-    contentBase: "./build"
-  },
   module: {
     rules: [
       {
