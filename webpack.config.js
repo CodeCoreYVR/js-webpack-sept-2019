@@ -55,6 +55,10 @@ module.exports = {
         options: {
           outputPath: "images/"
         }
+      },
+      {
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"]
       }
     ]
   },

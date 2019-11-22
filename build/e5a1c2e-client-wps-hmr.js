@@ -1,14 +1,13 @@
 webpackHotUpdate("client",{
 
-/***/ "./src/client.js":
-/*!***********************!*\
-  !*** ./src/client.js ***!
-  \***********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/css/client.scss":
+/*!*****************************!*\
+  !*** ./src/css/client.scss ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_leaflet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-leaflet */ \"./node_modules/react-leaflet/es/index.js\");\n/* harmony import */ var _images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/webpack-logo.jpeg */ \"./src/images/webpack-logo.jpeg\");\n/* harmony import */ var _images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nvar App = function App() {\n  var position = [49.2123148, -122.9224902];\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_2__[\"Map\"], {\n    center: position,\n    zoom: 15,\n    style: {\n      height: \"800px\"\n    }\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_2__[\"TileLayer\"], {\n    attribution: \"&copy <a href=\\\"http://osm.org/copyright\\\">OpenStreetMap</a> contributors\",\n    url: \"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_2__[\"Marker\"], {\n    position: position\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_leaflet__WEBPACK_IMPORTED_MODULE_2__[\"Popup\"], null, \"Codecore College. \", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \" New Westminster BC, V3M 6Z1\"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    style: {\n      borderRadius: \"20px\",\n      filter: \"blue(5px\"\n    },\n    width: \"400px\",\n    height: \"200px\",\n    src: _images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_3___default.a\n  }));\n};\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var root = document.createElement(\"div\");\n  document.body.append(root);\n  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), root);\n});\n\n//# sourceURL=webpack:///./src/client.js?");
+eval("throw new Error(\"Module parse failed: Unexpected character '@' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> @import \\\"bootstrap/scss/bootstrap\\\";\\n| \");\n\n//# sourceURL=webpack:///./src/css/client.scss?");
 
 /***/ })
 

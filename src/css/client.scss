@@ -1,0 +1,13 @@
+$primary: teal;
+@import "bootstrap/scss/bootstrap";
+
+.Map {
+  height: 800px;
+}
+
+.logo {
+  border-radius: 20px;
+  filter: blur(5px);
+  width: 400px;
+  height: 200px;
+}
