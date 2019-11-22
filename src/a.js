@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <img
       style={{
         borderRadius: "20px",
-        border: "3px solid gray"
+        filter: "blue(5px)"
       }}
       width="400px"
       src={webpackLogo}
