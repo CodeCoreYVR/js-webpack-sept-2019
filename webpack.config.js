@@ -10,6 +10,9 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 // Plugins
 // https://webpack.js.org/concepts/#plugins
 
+// Loaders
+// https://webpack.js.org/concepts/loaders
+
 module.exports = {
   mode: "development",
   // You can specify a path to an "entry" file in multiple ways
@@ -35,6 +38,25 @@ module.exports = {
     // The "filename" property is used to change
     // the names of the bundled files.
     filename: "[name].bundle.js"
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        // Use "exclude" with a regulare expression to
+        // files that should be ignored by this loader.
+        // Notably, we should ignore node_modules
+        loader: "babel-loader"
+      },
+      {
+        test: /\.(png|jpg|gif|svg|webp|jpeg)$/,
+        loader: "file-loader",
+        options: {
+          outputPath: "images/"
+        }
+      }
+    ]
   },
   plugins: [
     new HTMLWebpackPlugin({

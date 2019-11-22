@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"I am defaults that serve client work\");\n\n\n//# sourceURL=webpack:///./src/defaults.js?");
+eval("console.log(\"I am defaults that serve client work\");\n\n//# sourceURL=webpack:///./src/defaults.js?");
 
 /***/ })
 

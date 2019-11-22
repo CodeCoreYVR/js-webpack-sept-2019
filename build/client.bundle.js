@@ -86,14 +86,49 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/a.js":
+/*!******************!*\
+  !*** ./src/a.js ***!
+  \******************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _b__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./b */ \"./src/b.js\");\n/* harmony import */ var _b__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_b__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/webpack-logo.jpeg */ \"./src/images/webpack-logo.jpeg\");\n/* harmony import */ var _images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_1__);\n\nconsole.log(\"This is a |\");\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var img = document.createElement(\"img\");\n  img.src = _images_webpack_logo_jpeg__WEBPACK_IMPORTED_MODULE_1___default.a;\n  document.body.append(img);\n});\n\n//# sourceURL=webpack:///./src/a.js?");
+
+/***/ }),
+
+/***/ "./src/b.js":
+/*!******************!*\
+  !*** ./src/b.js ***!
+  \******************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("console.log(\"What's up? B here\");\n\n//# sourceURL=webpack:///./src/b.js?");
+
+/***/ }),
+
 /***/ "./src/client.js":
 /*!***********************!*\
   !*** ./src/client.js ***!
   \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log(\"I am client work\");\n\n\n//# sourceURL=webpack:///./src/client.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a */ \"./src/a.js\");\n\nconsole.log(\"I am client work\");\n\n//# sourceURL=webpack:///./src/client.js?");
+
+/***/ }),
+
+/***/ "./src/images/webpack-logo.jpeg":
+/*!**************************************!*\
+  !*** ./src/images/webpack-logo.jpeg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/bad334eeb966e1e2416e3978c77e1b5d.jpeg\";\n\n//# sourceURL=webpack:///./src/images/webpack-logo.jpeg?");
 
 /***/ })
 
