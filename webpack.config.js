@@ -1,10 +1,14 @@
 const path = require("path");
+const HTMLWebpackPlugin = require("html-webpack-plugin");
 
 // Entry Points
 // https://webpack.js.org/concepts/entry-points
 
 // Output
 // https://webpack.js.org/concepts/output
+
+// Plugins
+// https://webpack.js.org/concepts/#plugins
 
 module.exports = {
   mode: "development",
@@ -31,5 +35,13 @@ module.exports = {
     // The "filename" property is used to change
     // the names of the bundled files.
     filename: "[name].bundle.js"
-  }
+  },
+  plugins: [
+    new HTMLWebpackPlugin({
+      title: "Webpack Demo", // <title>of the html file
+      chunks: ["client"]
+      // "chunks" tells webpack which bundled file to include
+      // in the html file
+    })
+  ]
 };
