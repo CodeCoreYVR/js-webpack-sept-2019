@@ -1,4 +1,7 @@
 $primary: teal;
+// $myColor: #ff5733;
+$myColor: brown;
+
 @import "bootstrap/scss/bootstrap";
 
 .Map {
@@ -10,4 +13,8 @@ $primary: teal;
   filter: blur(5px);
   width: 400px;
   height: 200px;
+}
+
+p {
+  color: $myColor;
 }

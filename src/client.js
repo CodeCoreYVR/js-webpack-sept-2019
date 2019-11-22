@@ -11,6 +11,7 @@ const App = () => {
     <div>
       <img src={WebpackLogo} />
       <button className="btn btn-primary">Test</button>
+      <p>I should be brown coloured</p>
       <Map center={position} zoom={15} className="Map">
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
